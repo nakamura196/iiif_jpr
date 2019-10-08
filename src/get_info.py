@@ -37,8 +37,16 @@ for row in reader:
     th = ""
 
     try:
-        res = urllib.request.urlopen(manifest)
+
+        headers = {
+            "User-Agent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:47.0) Gecko/20100101 Firefox/47.0"
+        }
+
+        request = urllib.request.Request(manifest, headers=headers)
+        res = urlopen(request)
         data = json.loads(res.read())
+
+        
         th = data["sequences"][0]["canvases"][0]["images"][0]["resource"]["service"]["@id"] + \
             "/full/200,/0/default.jpg"
 
