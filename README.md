@@ -10,7 +10,7 @@ Repository of IIIF Discovery for Japanese Cultural Resources
 * Statistics
     * To be developed.
 * Faceted Search Interface
-    * Realtinme: https://nakamura196.github.io/isearch/?u=https://nakamura196.github.io/iiif_jpr/items.json 
-    * Batch: https://nakamura196.github.io/isearch/?u=https://script.google.com/macros/s/AKfycbweGxh7uRWCa-RFVTcy6j_8UrsaArHIW_Gi9MIxfhSJxvqwPYDp/exec
+    * Realtinme: https://nakamura196.github.io/isearch/?u=https://script.google.com/macros/s/AKfycbweGxh7uRWCa-RFVTcy6j_8UrsaArHIW_Gi9MIxfhSJxvqwPYDp/exec
+    * Batch: https://nakamura196.github.io/isearch/?u=https://nakamura196.github.io/iiif_jpr/items.json
 * Examples (ex. Sumo)
     * To be developed.
